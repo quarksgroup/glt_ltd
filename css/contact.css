@@ -44,6 +44,18 @@ li{
 img{
 	max-width: 100%;
 }
+h1, h2, h3, h4, h5, h6{
+	font-weight: 700;
+}
+h2{
+	font-size: 44px;
+	margin-bottom: 15px;
+}
+h3{
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 600;
+}
 section, .container{
 	position: relative;
 }
@@ -231,7 +243,10 @@ font-size: 1.5rem;
 } */
 
 .main {
-   background: none !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 107, 121, 0.9)), to(rgba(1, 128, 145, 0.85))), url('../images/servicebgbg3.jpeg') top/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 131, 148, 0.9), rgba(1, 141, 160, 0.85)), url('../images/servicebgbg3.jpeg') top/cover no-repeat;
+    background: linear-gradient(rgba(0, 150, 155, 0.9), rgba(1, 129, 146, 0.85)), url('../images/servicebgbg3.jpeg') top/cover no-repeat;
+    height: fit-content !important;
 }
 
 
@@ -413,9 +428,7 @@ font-size: 1.5rem;
 
 /* responsive */
 @media screen and (max-width:991px) {
-    body {
-        background: none !important;
-    }
+   
     .contactUS {
         padding: 20px;
     }
@@ -439,19 +452,14 @@ font-size: 1.5rem;
         padding: 30px;
     }
 }
-@media screen and (max-width:678px) {
-    body {
-        background: none !important;
-    }
-}
+
 
 
 
 /* footer */
 .footer {
     padding: 0px 3rem;
-    padding-top: 100px;
-    /* background: #fff; */
+    background: #fff;
 }
 .footer h1 {
     margin-top: 30px;
