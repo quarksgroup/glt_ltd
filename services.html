@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glt</title>
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- slick -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="image/logoo.jpeg" alt="" />
+      </a>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <a href="#" class="fas fa-shopping-cart" style="display: none"></a>
+        <div class="fas fa-user" id="login-btn" style="display: none"></div>
+      </div>
+
+      <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="#" class="active">services</a>
+        <a href="contact.html">contact</a>
+      </nav>
+
+      <form action="" class="login-form">
+        <h3>sign in</h3>
+        <input
+          type="email"
+          name=""
+          placeholder="enter your email"
+          id=""
+          class="box"
+        />
+        <input
+          type="password"
+          name=""
+          placeholder="enter your password"
+          id=""
+          class="box"
+        />
+        <div class="remember">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn" />
+        <div class="links">
+          <a href="#">forget password</a>
+          <a href="#">sign up</a>
+        </div>
+      </form>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section
+      class="home"
+      id="home"
+      style="
+        min-height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        background: url(image/merit.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+      "
+    >
+      <div class="content">
+        <h3><span>hi</span> welcome to Our Services</h3>
+        <a href="#" class="btn">Explore</a>
+        <a href="index.html" class="btn btn-two">home</a>
+      </div>
+
+      <img src="image/bottom_wave.png" class="wave" alt="" />
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+      <h1 class="heading">our <span>services</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fa fa-plane"></i>
+          <h3>Air Ticketing</h3>
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#air"
+          >
+            read more
+          </button>
+        </div>
+
+        <div class="box">
+          <i class="fa fa-plane"></i>
+          <h3>Visa Application</h3>
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#visa"
+          >
+            read more
+          </button>
+        </div>
+
+        <div class="box">
+          <i class="fa fa-user-md"></i>
+          <h3>Treatment In India</h3>
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#treatment"
+          >
+            read more
+          </button>
+        </div>
+
+        <div class="box">
+          <i class="fa fa-car"></i>
+          <h3>Car Rentals</h3>
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#car"
+          >
+            read more
+          </button>
+        </div>
+        <div class="box">
+          <i class="fa fa-h-square"></i>
+          <h3>Hotel Reservations</h3>
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#hotel"
+          >
+            read more
+          </button>
+        </div>
+
+        <div class="box">
+          <i class="fa fa-object-group"></i>
+          <h3>Tour Package</h3>
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#package"
+          >
+            read more
+          </button>
+        </div>
+
+        <div class="box">
+          <i class="fa fa-info-circle"></i>
+          <h3>Insuarance Services</h3>
+          <button
+            type="button"
+            class="btn"
+            data-bs-toggle="modal"
+            data-bs-target="#insuarance"
+          >
+            read more
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- partners -->
+    <section></section>
+    <!-- partners -->
+
+    <section class="footer">
+      <img src="image/top_wave.png" alt="" />
+
+      <div class="row gx-5">
+        <div class="col-md-4">
+          <h1>Global Link Travels</h1>
+          <p>
+            GLOBAL LINK TRAVELS ltd is the leading travel agency in Rwanda
+            started in 2017 with well trained and experienced staff to serve
+            your travel needs 7 days a week.
+          </p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <h1>Quick Links</h1>
+          <div class="links">
+            <div>
+              <a href="index.html">Home</a>
+            </div>
+            <div>
+              <a href="about.html">About</a>
+            </div>
+            <div>
+              <a href="#">Services</a>
+            </div>
+            <div>
+              <a href="contact.html">Contact</a>
+            </div>
+            <!-- <div>
+                <a href="">Home</a>
+              </div> -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h1>Contact Us</h1>
+          <div class="footer-icons">
+            <div class="inner-footer-icons">
+              <a href="mailto:info@globallinktravels.rw"
+                ><i class="fas fa-envelope"></i
+              ></a>
+              <div class="inner-footer-content">
+                <span
+                  ><a
+                    href="mailto:info@globallinktravels.rw"
+                    style="text-transform: none !important"
+                    >info@globallinktravels.rw</a
+                  ></span
+                >
+              </div>
+            </div>
+            <div class="inner-footer-icons">
+              <a href="tel:+250788314175"><i class="fas fa-phone-alt"></i></a>
+              <div class="inner-footer-content">
+                <span><a href="tel:+250788314175">0788314175</a></span
+                ><br />
+              </div>
+            </div>
+            <div class="inner-footer-icons">
+              <a href="tel:+250788314175"><i class="fa fa-map"></i></a>
+              <div class="inner-footer-content">
+                <span><a href="">Kubaho Plaza kg7 <br> kigali-rwanda</a></span
+                ><br />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <!-- <div>
+            <img src="image/logoo.jpeg" alt="" height="100px" width="100px">
+          </div> -->
+        </div>
+      </div>
+
+      <div class="share">
+        <a href="#" class="btn"> <i class="fab fa-facebook-f"></i> facebook </a>
+        <a href="#" class="btn"> <i class="fab fa-twitter"></i> twitter </a>
+        <a href="#" class="btn"> <i class="fab fa-instagram"></i> instagram </a>
+        <a href="#" class="btn"> <i class="fab fa-linkedin"></i> linkedin </a>
+        <a href="#" class="btn"> <i class="fab fa-pinterest"></i> pinterest </a>
+      </div>
+
+      <!-- <div class="credit"> created by <span> mr. web designer </span> | all rights reserved! </div> -->
+    </section>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="air"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-h1" id="exampleModalLabel">
+              Air Ticketing
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              We are an airline ticketing agency based in Rwanda-kigali offering
+              the most convenient services, cost effective and fastest
+              connections through to your destinations.
+            </p>
+          </div>
+          <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="visa"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-h1" id="exampleModalLabel">
+              Visa Application
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Global link ravels ltd offer visa assistance services at the
+              standardized non-refundable fee but note that we are tour and
+              travel company and do not represent any country’s Embassy or
+              personnel.
+            </p>
+          </div>
+          <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="treatment"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-h1" id="exampleModalLabel">
+              Treatment In India
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              We are the representing Medanta hospital here in Rwanda and we do
+              facilitate all the patients who seek treatment in India at our
+              office in kacyiru near meridien hotel at total energy station.
+              Medanta the medicity hospital have been voted as the best private
+              hospital in India.
+            </p>
+          </div>
+          <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="car"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-h1" id="exampleModalLabel">
+              Car Rentals
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              We offer a very flexible car rental services both on self-drive
+              and with an experienced driver at affordable prices .quotation
+              available upon request.
+            </p>
+          </div>
+          <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="hotel"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-h1" id="exampleModalLabel">
+              Hotel Reservstions
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              We have partnered with various hotels and destinations making it
+              easy for us to find accommodation and the best flexibility tasks
+              there is around.
+            </p>
+          </div>
+          <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="package"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-h1" id="exampleModalLabel">
+              Tour Packages
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              We have partnered with various hotels and destinations making it
+              easy for us to find accommodation and the best flexibility tasks
+              there is around.
+            </p>
+          </div>
+          <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="insuarance"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 text-h1" id="exampleModalLabel">
+              Insuarance Services
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Global link travels ltd we are proud ourselves with generic
+              insurance facility through an affiliation with OLD MUTUAL
+              INSURANCE COMPANY. Below are some of the insurance covers we
+              offer.
+            </p>
+            <ul>
+              <li>Travel INSURANCE</li>
+              <li>Medical INSURANCE</li>
+              <li>Fire INSURANCE</li>
+              <li>Moto INSURANCE</li>
+              <li>Agriculture Cover</li>
+              <li>Customer Bond Cover</li>
+            </ul>
+          </div>
+          <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

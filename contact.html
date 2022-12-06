@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glt</title>
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+
+    <!-- slick -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="image/logoo.jpeg" alt="" />
+      </a>
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <a href="#" class="fas fa-shopping-cart" style="display: none"></a>
+        <div class="fas fa-user" id="login-btn" style="display: none"></div>
+      </div>
+
+      <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="services.html">services</a>
+        <a href="#" class="active">contact</a>
+      </nav>
+
+      <form action="" class="login-form">
+        <h3>sign in</h3>
+        <input
+          type="email"
+          name=""
+          placeholder="enter your email"
+          id=""
+          class="box"
+        />
+        <input
+          type="password"
+          name=""
+          placeholder="enter your password"
+          id=""
+          class="box"
+        />
+        <div class="remember">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn" />
+        <div class="links">
+          <a href="#">forget password</a>
+          <a href="#">sign up</a>
+        </div>
+      </form>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section
+      class="home"
+      id="home"
+      style="
+        min-height: 100vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        background: url(image/contact.webp) no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+      "
+    >
+      <div class="content" style="display: none">
+        <h3><span>hi</span> welcome!! talk to us</h3>
+        <a href="#" class="btn">travel now</a>
+        <a href="index.html" class="btn btn-two">home</a>
+      </div>
+
+      <img src="image/bottom_wave.png" class="wave" alt="" />
+    </section>
+
+    <!-- contact -->
+    <section>
+      <div class="box">
+        <div class="contact form">
+          <h2 style="color: #999; margin-bottom: 30px">send message</h2>
+          <form action="">
+            <div class="formBox">
+              <div class="row50">
+                <div class="inputBox">
+                  <input type="text" placeholder="First Name" />
+                  <i class="form-icon fa-solid fa-user"></i>
+                </div>
+                <div class="inputBox">
+                  <input type="text" placeholder="Second Name" />
+                  <i class="form-icon fa-solid fa-user"></i>
+                </div>
+              </div>
+              <div class="row50">
+                <div class="inputBox">
+                  <input type="email" placeholder="Email" />
+                  <i class="form-icon fas fa-envelope"></i>
+                </div>
+                <div class="inputBox">
+                  <input type="tel" placeholder="Phone" />
+                  <i class="form-icon fas fa-phone-alt"></i>
+                </div>
+              </div>
+              <div class="row100">
+                <div class="inputBox">
+                  <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="5"
+                    placeholder="Message"
+                  ></textarea>
+                  <i class="form-icon fas fa-envelope"></i>
+                </div>
+              </div>
+              <div class="row100">
+                <div class="inputBox">
+                  <span class="icon"></span>
+                  <input type="submit" value="Send" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="contact info">
+          <h2>Contact Info</h2>
+          <div>
+            <span><i class="fa-solid fa-location-dot"></i></span>
+            <p>Kibaho Plaza kg7 <br />Kigali-Rwanda</p>
+          </div>
+          <div>
+            <span><i class="fas fa-envelope"></i></span>
+            <a href="mailto:info@globallinktravels.rw"
+              >info@globallinktravels.rw</a
+            >
+          </div>
+          <div>
+            <span><i class="fas fa-phone-alt"></i></span>
+            <a href="tel:+250788314175">0788314175</a>
+          </div>
+          <ul class="sci">
+            <li>
+              <a href=""><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.514028374891!2d30.090827214754857!3d-1.9473800985802547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca6ec51564e8d%3A0xbd934bcbc7cbbbfb!2sKubaho%20Plaza%2C%20KG%207%20Ave%2C%20Kigali!5e0!3m2!1sen!2srw!4v1669620015953!5m2!1sen!2srw"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+
+    <section class="footer">
+      <img src="image/top_wave.png" alt="" />
+
+      <div class="row gx-5">
+        <div class="col-md-4">
+          <h1>Global Link Travels</h1>
+          <p>
+            GLOBAL LINK TRAVELS ltd is the leading travel agency in Rwanda
+            started in 2017 with well trained and experienced staff to serve
+            your travel needs 7 days a week.
+          </p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3">
+          <h1>Quick Links</h1>
+          <div class="links">
+            <div>
+              <a href="index.html">Home</a>
+            </div>
+            <div>
+              <a href="about.html">About</a>
+            </div>
+            <div>
+              <a href="services.html">Services</a>
+            </div>
+            <div>
+              <a href="#">Contact</a>
+            </div>
+            <!-- <div>
+                <a href="">Home</a>
+              </div> -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h1>Contact Us</h1>
+          <div class="footer-icons">
+            <div class="inner-footer-icons">
+              <a href="mailto:info@globallinktravels.rw"
+                ><i class="fas fa-envelope"></i
+              ></a>
+              <div class="inner-footer-content">
+                <span
+                  ><a
+                    href="mailto:info@globallinktravels.rw"
+                    style="text-transform: none !important"
+                    >info@globallinktravels.rw</a
+                  ></span
+                >
+              </div>
+            </div>
+            <div class="inner-footer-icons">
+              <a href="tel:+250788314175"><i class="fas fa-phone-alt"></i></a>
+              <div class="inner-footer-content">
+                <span><a href="tel:+250788314175">0788314175</a></span
+                ><br />
+              </div>
+            </div>
+            <div class="inner-footer-icons">
+              <a href="tel:+250788314175"><i class="fa fa-map"></i></a>
+              <div class="inner-footer-content">
+                <span><a href="">Kubaho Plaza kg7 <br> kigali-rwanda</a></span
+                ><br />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <!-- <div>
+            <img src="image/logoo.jpeg" alt="" height="100px" width="100px">
+          </div> -->
+        </div>
+      </div>
+
+      <div class="share">
+        <a href="#" class="btn"> <i class="fab fa-facebook-f"></i> facebook </a>
+        <a href="#" class="btn"> <i class="fab fa-twitter"></i> twitter </a>
+        <a href="#" class="btn"> <i class="fab fa-instagram"></i> instagram </a>
+        <a href="#" class="btn"> <i class="fab fa-linkedin"></i> linkedin </a>
+        <a href="#" class="btn"> <i class="fab fa-pinterest"></i> pinterest </a>
+      </div>
+
+      <!-- <div class="credit"> created by <span> mr. web designer </span> | all rights reserved! </div> -->
+    </section>
+
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <!-- sliclk js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+      integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".logo-slider").slick({
+        SlidesToShow: 5,
+        SlidesToScroll: 1,
+        dots: true,
+        arrows: true,
+        autoplays: true,
+        autoplaySpeed: 2000,
+        infinite: true,
+      });
+    </script>
+  </body>
+</html>
