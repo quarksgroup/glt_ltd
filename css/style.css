@@ -67,7 +67,7 @@ section {
   margin-top: 1rem;
   padding: .8rem 2.8rem;
   border-radius: 5rem;
-  border-top-left-radius: 0;
+  /* border-top-left-radius: 0; */
   border: 0.2rem solid #130f40;
   cursor: pointer;
   background: none;
@@ -82,7 +82,7 @@ section {
   margin-top: 1rem;
   padding: .8rem 2.8rem;
   border-radius: 5rem;
-  border-top-left-radius: 0;
+  /* border-top-left-radius: 0; */
   border: 0.2rem solid var(--secondary-color);
   cursor: pointer;
   background: var(--secondary-color);
