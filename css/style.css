@@ -428,6 +428,7 @@ section {
 .cat-food .content h3 {
   font-size: 3.5rem;
   color: #130f40;
+  text-align: start;
 }
 
 .dog-food .content h3 span,
