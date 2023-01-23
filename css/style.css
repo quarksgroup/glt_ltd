@@ -788,7 +788,7 @@ section {
   width: auto;
 }
 .slider .slide-track {
-  animation: scroll 10s linear infinite;
+  animation: scroll 20s linear infinite;
   display: flex;
   width: calc(250px * 15);
 }
